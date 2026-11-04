@@ -1,6 +1,6 @@
 # 개발 계획서: 손글씨 숫자 인식 웹 앱
 
-> 상태: **M0 진행 중** (로컬 저장소 준비 완료, GitHub push 대기)
+> 상태: **M0 완료** (저장소: https://github.com/lee-changyeon/handwrite)
 > 작성일: 2026-11-04
 
 ## 1. 목표
@@ -45,7 +45,7 @@
 ## 4. 폴더 구조 (예정)
 
 ```
-handwritten-number-web/
+handwrite/
 ├─ training/                 # Python: 모델 학습과 변환 (배포 대상 아님)
 │  ├─ requirements.txt       # torch, torchvision, onnx, onnxruntime
 │  ├─ dataset.py             # MNIST + EMNIST 불러오기, 데이터 증강
@@ -116,7 +116,7 @@ handwritten-number-web/
 
 | 단계 | 내용 | 완료 기준 |
 |---|---|---|
-| M0 | 저장소 준비: 폴더 구조, .gitignore, LICENSE, README | GitHub에 첫 push |
+| M0 ✅ | 저장소 준비: 폴더 구조, .gitignore, LICENSE, README | GitHub에 첫 push |
 | M1 | 모델 학습 | MNIST 테스트 정확도 **99.3% 이상** |
 | M2 | ONNX 변환 | PyTorch와 ONNX 출력 차이 1e-4 이하, 파일 1MB 이하 |
 | M3 | 웹에서 숫자 한 개 인식 | JS 전처리 결과가 Python 기준 데이터와 일치 |
@@ -147,7 +147,7 @@ handwritten-number-web/
 - 틀린 결과를 사용자가 고쳐 입력하는 기능 (데이터 수집용)
 
 ## 10. 시작 전 확인할 것
-- [ ] 저장소 이름: 임시로 `handwritten-number-web`
+- [x] 저장소 이름: `handwrite` (데모 주소: https://lee-changyeon.github.io/handwrite/)
 - [x] 라이선스: MIT (`LICENSE` 추가)
-- [ ] GitHub 계정과 저장소 공개 여부 (Pages 무료 사용은 공개 저장소 기준)
+- [x] GitHub 계정: `lee-changyeon` (Pages 무료 사용은 공개 저장소 기준)
 - [ ] 기존 numpy 버전 프로그램(`C:\dev\std-01`의 `app.py` 등)은 이 저장소에 포함하지 않음

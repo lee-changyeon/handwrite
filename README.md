@@ -5,7 +5,7 @@
 
 > 🚧 **개발 중입니다** (M0 저장소 준비 완료). 개발 계획과 진행 상황은 [PLAN.md](PLAN.md)를 참고하세요.
 
-**🔗 데모:** `https://<github-id>.github.io/handwritten-number-web/` (배포 후 갱신 예정)
+**🔗 데모:** https://lee-changyeon.github.io/handwrite/ (M6 배포 후 동작 예정)
 
 ## 주요 기능
 - 마우스, 터치, 펜으로 여러 자리 숫자 입력 (예: `2026`)
@@ -23,6 +23,12 @@
 - 현재는 0~9 숫자만 인식합니다.
 
 ## 로컬에서 실행하기
+
+### 저장소 받기
+```bash
+git clone https://github.com/lee-changyeon/handwrite.git
+cd handwrite
+```
 
 ### 웹 앱 실행
 브라우저 보안 정책 때문에 `index.html`을 더블클릭해서 열면 모델이 로드되지 않습니다. 로컬 서버로 열어 주세요.
