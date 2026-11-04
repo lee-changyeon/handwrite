@@ -14,6 +14,9 @@ training/checkpoints/
 *.pt
 *.pth
 
+# 실행 로그
+*.log
+
 # 테스트/도구 관련
 node_modules/
 .pytest_cache/

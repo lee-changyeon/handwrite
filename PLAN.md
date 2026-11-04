@@ -1,6 +1,6 @@
 # 개발 계획서: 손글씨 숫자 인식 웹 앱
 
-> 상태: **M0 완료** (저장소: https://github.com/lee-changyeon/handwrite)
+> 상태: **M1 진행 중** (학습 코드 작성 완료, 학습 실행 중) | 저장소: https://github.com/lee-changyeon/handwrite
 > 작성일: 2026-11-04
 
 ## 1. 목표
