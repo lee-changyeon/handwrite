@@ -1,0 +1,25 @@
+# Python 가상환경
+venv/
+.venv/
+
+# Python 캐시
+__pycache__/
+*.py[cod]
+
+# 학습 데이터 (MNIST, EMNIST: 용량이 커서 저장소에 포함하지 않음)
+training/data/
+
+# 학습 중간 결과물 (배포용 모델은 web/model/*.onnx 만 저장소에 포함)
+training/checkpoints/
+*.pt
+*.pth
+
+# 테스트/도구 관련
+node_modules/
+.pytest_cache/
+
+# 편집기와 운영체제 파일
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
